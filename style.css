@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.game-box {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.truth {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.dare {
+  background-color: #FF5722;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+#output {
+  font-size: 18px;
+  min-height: 60px;
+}
